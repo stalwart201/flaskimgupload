@@ -3,7 +3,7 @@ from flask import Flask, request, redirect, url_for
 from werkzeug import secure_filename
 from flask import send_from_directory
 
-UPLOAD_FOLDER = '/home/rishabh/uploadtest'
+UPLOAD_FOLDER = 'Location of floder where image will be saved' '''/home/upload'''
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
 app = Flask(__name__)
